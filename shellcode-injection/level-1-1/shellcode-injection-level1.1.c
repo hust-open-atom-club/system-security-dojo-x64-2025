@@ -6,7 +6,6 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <time.h>
-#include "util.h"
 
 #include <capstone/capstone.h>
 
@@ -71,7 +70,6 @@ int main(int argc, char **argv, char **envp)
 
     uint8_t shellcode[0x1000];
     shellcode_mem = (void *)&shellcode;
-    print_desc();
     puts("You need to skip some bytes.Good luck!");
     puts("Reading 0x1000 bytes from stdin.\n");
     shellcode_size = read(0, shellcode_mem, 0x1000);
@@ -87,5 +85,4 @@ int main(int argc, char **argv, char **envp)
 
     puts("Executing shellcode!\n");
     ((void(*)())shellcode_mem)();
-    print_exit();
 }

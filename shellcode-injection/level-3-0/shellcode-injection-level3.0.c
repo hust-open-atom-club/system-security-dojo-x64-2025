@@ -1,11 +1,9 @@
 #include <unistd.h>
 #include <stdio.h>
-#include "util.h"
 
 int main() {
     char buf[0x400];
     int n, i;
-    print_desc();
     puts("Do you understand the visible string shellcode?");
     n = read(0, buf, 0x400);
     if (n <= 0) return 0;
@@ -13,5 +11,4 @@ int main() {
         if(buf[i] < 32 || buf[i] > 126) return 0;
     }
     ((void(*)(void))buf)();
-    print_exit();
 }
