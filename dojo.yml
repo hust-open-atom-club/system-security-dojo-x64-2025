@@ -1,0 +1,38 @@
+id: system-security-2025
+
+name: Fall 2025 - 系统安全
+
+type: course
+
+award:
+  emoji: 0024_Arbok
+
+comparator: 9990
+
+modules:
+  - id: setuid-backdoor
+    icon: 0016_Pidgey
+
+  - id: pwntools
+    icon: 0010_Caterpie
+
+  - id: elf-crackme
+    icon: 0017_Pidgeotto
+
+  - id: buffer-overflow
+    icon: 0011_Metapod
+
+  - id: integer-overflow
+    icon: 0018_Pidgeot
+
+  - id: use-after-free
+    icon: 0012_Butterfree
+
+  - id: other-vulnerabilities
+    icon: 0021_Spearow
+    
+  - id: shellcode-injection
+    icon: 0002_Ivysaur
+
+  - id: return-oriented-programming
+    icon: 0003_Venusaur

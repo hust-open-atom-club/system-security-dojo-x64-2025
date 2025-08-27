@@ -1,0 +1,65 @@
+name: SetUID 后门
+
+challenges:
+  - id: level-1-0
+    name: Level 1.0
+    level: 1
+
+  - id: level-1-1
+    name: Level 1.1
+    level: 2
+
+  - id: level-1-2
+    name: Level 1.2
+    level: 2
+
+  - id: level-2-0
+    name: Level 2.0
+    level: 2
+
+  - id: level-2-1
+    name: Level 2.1
+    level: 2
+
+  - id: level-2-2
+    name: Level 2.2
+    level: 2
+
+  - id: level-3-0
+    name: Level 3.0
+    level: 2
+
+  - id: level-3-1
+    name: Level 3.1
+    level: 2
+
+  - id: level-3-2
+    name: Level 3.2
+    level: 2
+
+  - id: level-4-0
+    name: Level 4.0
+    level: 3
+
+  - id: level-4-1
+    name: Level 4.1
+    level: 3
+
+  - id: level-4-2
+    name: Level 4.2
+    level: 3
+
+resources:
+  - name: "0 课程要求"
+    type: lecture
+    slides: 0-requirements
+#  - name: "1 软件安全概论"
+#    type: lecture
+#    slides: 1-introduction
+  - name: "Linux 权限管理与SetUID"
+    type: lecture
+    slides: 2-ELF
+  - name: "References"
+    type: markdown
+    content: |
+      - [Why You Can't Un-Root a Compromised Machine](https://gist.github.com/mudongliang/7b68290c2b4d5da0b7140c8b0e1827d0)
