@@ -1,8 +1,8 @@
 name: ELF CrackMe
 
 challenges:
-  - id: level-1-0
-    name: Level 1.0
+  - id: teaching-level
+    name: 教学关卡
     level: 2
 
   - id: level-1-1
