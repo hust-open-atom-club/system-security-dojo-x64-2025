@@ -1,4 +1,4 @@
-TARGET = integer-overflow-level3.0
+TARGET = teaching-level
 CC     = gcc
 CFLAGS = -Wall -Wextra -Werror
 
