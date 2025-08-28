@@ -2,7 +2,7 @@ name: 其他漏洞类型
 
 challenges:
   - id: level-1-0
-    name: Level 1.0
+    name: 教学关卡
 
   - id: level-1-1
     name: Level 1.1

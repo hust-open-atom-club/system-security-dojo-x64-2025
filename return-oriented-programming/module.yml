@@ -2,7 +2,7 @@ name: ROP
 
 challenges:
   - id: level-1-0
-    name: Level 1.0
+    name: 教学关卡
     level: 4
 
   - id: level-1-1

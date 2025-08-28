@@ -6,5 +6,5 @@
 
 ## 关卡等级分布
 
-- Level 1.0 ：利用悬垂指针读取 /flag
+- 教学关卡 ：利用悬垂指针读取 /flag
 - Level 1.1 ：利用悬垂指针，结合 ptmalloc2 tcache bin 分配堆内存的基本原理，劫持堆块分配后，读取 /flag
