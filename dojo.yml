@@ -10,11 +10,11 @@ award:
 comparator: 9990
 
 modules:
-  - id: setuid-backdoor
-    icon: 0016_Pidgey
-
   - id: pwntools
     icon: 0010_Caterpie
+
+  - id: setuid-backdoor
+    icon: 0016_Pidgey
 
   - id: elf-crackme
     icon: 0017_Pidgeotto
