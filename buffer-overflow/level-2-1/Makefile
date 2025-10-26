@@ -12,3 +12,7 @@ all: $(TARGET)
 
 clean: 
 	rm -rf $(TARGET)
+
+all: $(TARGET)
+	sudo chown root:root $(TARGET)
+	sudo chmod 4755 $(TARGET)
